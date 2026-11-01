@@ -60,7 +60,9 @@ public class TestNGLoginTest {
     }
 
     @Test(priority = 4, groups = {"smoke", "regression"})
-   
+
+    public void verifySuccessfulLogin() {
+        
     //STUDENT TASK 1. WRITE CODE HERE
 
         Assert.assertEquals(
@@ -70,6 +72,8 @@ public class TestNGLoginTest {
     }
 
     @Test(priority = 5, groups = {"regression"})
+
+    public void verifyInvalidLogin() {
 
          //STUDENT TASK 2. WRITE CODE HERE
 
